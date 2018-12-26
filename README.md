@@ -8,3 +8,5 @@
 可新注册个账号，请填写
 邀请码:abcMzMwMTY4ODRhNjIxMTZiZTk3
 这是一个可多次使用的邀请码
+
+具体请看说明书pdf
