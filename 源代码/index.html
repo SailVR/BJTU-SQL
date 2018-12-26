@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="/css/favicon.ico">
+		<title>微信通讯录</title>
+		<link  href="./index/bootstrap.css"  rel="stylesheet"  type="text/css">
+		<script  src="./index/jquery.min.js"></script><style  type="text/css"  adt="123"></style>
+		<link  href="./index/style.css"  rel="stylesheet"  type="text/css">
+		<meta  name="viewport"  content="width=device-width, initial-scale=1">
+		<script  type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		<link  href="./index/animate.css"  rel="stylesheet"  type="text/css"  media="all">
+		<script  type="text/javascript"  src="./index/jquery.corner.js"></script> 
+		<script  src="./index/wow.min.js"></script>
+		<script>
+		 new WOW().init();
+		</script>
+		<script  type="text/javascript"  src="./index/move-top.js"></script>
+		<script  type="text/javascript"  src="./index/easing.js"></script>
+		<script  type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		<link  href="http://fonts.useso.com/css?family=Roboto:400,100,300,500,700,900"  rel="stylesheet"  type="text/css">
+	<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+	        		var w = $(window).width();
+	        		if(w > 320 && menu.is(':hidden')) {
+	        			menu.removeAttr('style');
+	        		}
+	    		});
+			});
+		</script>
+		
+    <meta  charset="utf-8">
+	<style  type="text/css">
+	object,embed{                -webkit-animation-duration:.001s;-webkit-animation-name:playerInserted;                -ms-animation-duration:.001s;-ms-animation-name:playerInserted;                -o-animation-duration:.001s;-o-animation-name:playerInserted;                animation-duration:.001s;animation-name:playerInserted;}                @-webkit-keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}                @-ms-keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}                @-o-keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}                @keyframes playerInserted{from{opacity:0.99;}to{opacity:1;}}
+	.font {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+    </style></head>
+	<body  style="">
+		<div  class="bg">
+		<div  class="container">
+			<div  id="home"  class="header wow bounceInDown animated animated"  data-wow-delay="0.4s"  style="visibility: visible; -webkit-animation: bounceInDown 0.4s 0.4s;">
+                    <div  class="logo">
+							<a  href="http://www.fly-home.cn"><img  src="http://hjl.fly-me.cn:81/2.png" style="width:60px;height:60px;" title="zmrbk.com"></a>
+						</div>
+					<div  class="top-header">
+						 <nav  class="top-nav">
+						   <ul  class="top-nav">
+						  <li><a href="#">&nbsp;网站首页</a></li>
+						  <li><a href="user/login.php">用户登录</a></li>
+						  <li><a href="user/reg.php">用户注册</a></li>
+						   <li><a href="user">用户中心</a></li>
+					      <li><a href="#">更多推荐</a></li>
+						   </ul>
+							<a  href="#"  id="pull"><img  src="./index/nav-icon.png"  title="menu"></a>
+						</nav>
+						<div  class="clearfix"> </div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div  class="banner-info">
+				<div  class="container">
+					<h1  class="wow fadeIn animated animated"  data-wow-delay="0.5s"  style="visibility: visible; -webkit-animation: fadeIn 0.5s 0.5s;"><span></span><br>
+					  <label></label></h1>
+				<div class="top-banner-grids wow bounceInUp animated animated"  data-wow-delay="0.4s"  style="visibility: visible; -webkit-animation: bounceInUp 0.4s 0.4s;">	
+				 
+				  <div  class="clearfix"></div>
+				</div>
+			  </div>
+			</div>
+			<div  class="clearfix"> </div>
+		</div>
+		</body></html>
