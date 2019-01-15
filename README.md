@@ -1,7 +1,7 @@
 # BJTU-SQL
 北交大数据库课设作业通讯录
 
-网页链接:http://cs.fly-me.cn:99/
+网页链接:http://fly-me.cn:99/
 可测试的账号
    账号:sailing
    密码:12345678
